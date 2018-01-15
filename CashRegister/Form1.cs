@@ -27,5 +27,22 @@ namespace CashRegister
 
             lstOrderSummary.Items.Add("Pizza" + lblPizza.Text);
         }
+
+        private void btnBurger_Click(object sender, EventArgs e)
+        {
+            lstOrderSummary.Items.Add("Burger" + lblBurger.Text);
+        }
+
+        private void btnFries_Click(object sender, EventArgs e)
+        {
+            lstOrderSummary.Items.Add("Fries" + lblFries.Text);
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            lstOrderSummary.Items.Clear();
+            lstOrderSummary.Items.Add("Order Summary");
+
+        }
     }
 }

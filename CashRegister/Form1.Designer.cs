@@ -59,6 +59,7 @@
             this.btnBurger.TabIndex = 1;
             this.btnBurger.Text = "Burger";
             this.btnBurger.UseVisualStyleBackColor = true;
+            this.btnBurger.Click += new System.EventHandler(this.btnBurger_Click);
             // 
             // btnFries
             // 
@@ -68,6 +69,7 @@
             this.btnFries.TabIndex = 2;
             this.btnFries.Text = "Fries";
             this.btnFries.UseVisualStyleBackColor = true;
+            this.btnFries.Click += new System.EventHandler(this.btnFries_Click);
             // 
             // lstOrderSummary
             // 
@@ -85,6 +87,7 @@
             this.btnClear.TabIndex = 4;
             this.btnClear.Text = "Clear Order";
             this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // lblMenu
             // 
