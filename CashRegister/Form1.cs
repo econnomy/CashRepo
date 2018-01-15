@@ -16,5 +16,16 @@ namespace CashRegister
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            lstOrderSummary.Items.Add("Order Summary");
+        }
+
+        private void btnPizza_Click(object sender, EventArgs e)
+        {
+
+            lstOrderSummary.Items.Add("Pizza" + lblPizza.Text);
+        }
     }
 }
