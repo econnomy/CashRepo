@@ -1,6 +1,6 @@
 ﻿namespace CashRegister
 {
-    partial class Form1
+    partial class OrderMenu
     {
         /// <summary>
         /// Required designer variable.
