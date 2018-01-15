@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CashRegister
 {
-    public partial class Form1 : Form
+    public partial class OrderMenu : Form
     {
-        public Form1()
+        public OrderMenu()
         {
             InitializeComponent();
         }
